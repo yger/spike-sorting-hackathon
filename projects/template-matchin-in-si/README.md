@@ -45,14 +45,25 @@ Make notebooks to report benchmarks in various conditions:
   * [ ] low/high bursting modulation
 
   
-## Progress and Next Steps
+## Progress
 
+During the workshop, we mostly focus on developping benchmarks for the already implemented peeler, in order to be able to quickly test the performances on various
+recordings/probe layout. The module has been refactored such that every matching engine has now its own files, and thus the readibility of the code has been 
+improved. A `BenchmarkMatching` object has been created in order to handle all the comparisons/tests of performances. A notebook providing some examples of how to 
+run/benchmark the various peeler has been updated
 
+## Next steps
+
+More visualization could be done, and a more intensive comparisons depending on various recordings/probes should be done. For exmaple, the scaling to NeuroPixel 
+recordings has not been tested yet, and also some more *template matching* engines should be implemented.
 
 ## Materials
 
 
-
 ## Background and References
 
+
+[tridesclous engine](https://github.com/tridesclous/tridesclous)
+[spyking-circus engine](https://github.com/spyking-circus/spyking-circus)
+[Differences between Matching pursuit and Orthogonal Matching pursuit](https://en.wikipedia.org/wiki/Matching_pursuit)
 
